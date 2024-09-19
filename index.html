@@ -14,27 +14,27 @@
     <main class="weatherAppContainer">
         <nav class="searchContainer">
             <form>        
-                <input type="text" placeholder="Enter city name">
-                <input type="submit" value="🔍">
+                <input id="searchCity" type="text" placeholder="Enter city name">
+                <input id="searchBtn" type="submit" value="🔍">
             </form>
         </nav>
         <div class="tempAndLocation">
-            <img src="./images/sun-1789653_640.png" alt="sun">
-            <div>21c</div>
-            <div>Birmingham</div>
+            <img id="weatherImg" src="./images/sun.png" alt="sun">
+            <div id="temp">--</div>
+            <div id="cityName">City Name</div>
         </div>
         <div class="humidityAndWind">
             <div class="humidityContainer">
-                <img src="./images/hand-1527793_640.png" alt="humidity">
+                <img src="./images/humidity.png" alt="humidity">
                 <div>
-                    <p>53%</p>
+                    <p id="humidity">--%</p>
                     <p>Humidity</p>
                 </div>
             </div>
             <div class="windContainer">
-                <img src="./images/reed-305381_640.png" alt="humidity">
+                <img src="./images/wind.png" alt="humidity">
                 <div>
-                    <p>5.66 km/h</p>
+                    <p id="wind">-- km/h</p>
                     <p>Wind Speed</p>
                 </div>
             </div>
