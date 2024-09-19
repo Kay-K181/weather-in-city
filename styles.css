@@ -1,9 +1,93 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: black;
 }
 
 .weatherAppContainer {
-    background-color: peachpuff;
+    width: 45%;
+    margin: auto;
+    margin-top: 5rem;
+    background-image: linear-gradient(#ffb677, #ff8364);
+    border-radius: 2rem;
 }
+
+.searchContainer {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+form input:first-child {
+    width: 30rem;
+    margin-right: .5rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 0.5rem .5rem 1.2rem; 
+    background-color: #f5f7fae5;
+}
+
+form input:last-child {
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: none;
+    padding: .5rem .8rem;
+    background-color: #f5f7fae5;
+}
+
+.tempAndLocation {
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.tempAndLocation img {
+    width: 13rem;
+    
+}
+
+.tempAndLocation div {
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.humidityAndWind {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+}
+
+.humidityContainer, .windContainer {
+    display: flex;
+    align-items: center;
+}
+
+.humidityContainer img {
+    width: 5rem;
+    padding-right: .5rem;
+}
+
+.windContainer img {
+    width: 3rem;
+    padding-right: .5rem;
+}
+
+.humidityContainer, .windContainer div {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
